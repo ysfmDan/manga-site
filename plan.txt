@@ -1,0 +1,15 @@
+こんな枠組みで考えたい。
+
+親ディレクトリを manga/ としよう。
+◯ manga/ にはすでに template/ というディレクトリがあって、そこには骨格になる html が入っている。とする。
+STEP1 親ディレクトリ manga/ で make $titlename
+--すると $titlename というdirectory 名の directory ができる。
+-- $titlename に template/ 以下の全ファイルをコピーする。
+
+STEP2 (手動)
+--  $titlename にいくつかの4つの png ファイル a1.png a2.png,a3.png a4.png を置く
+
+STEP3 $titlename/ で make
+-- すると4つの a?.webp ができる。
+STEP4 (手動)
+-- $titlename/ のhtml ファイルを書き換えて、セリフを整える。
