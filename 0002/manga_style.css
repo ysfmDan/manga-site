@@ -1,0 +1,57 @@
+/*manga_style.css */
+
+body {
+    background-color: #ffffff;
+    color: #333333;
+    margin: 0;
+    padding: 0;
+}
+
+.nav-links {
+    text-align: center;
+    margin-top: 30px;
+    padding-bottom: 50px;
+}
+
+.next-btn {
+    display: inline-block;
+    background-color: #333;
+    color: #fff;
+    padding: 15px 30px;
+    text-decoration: none;
+    border-radius: 25px;
+    font-weight: bold;
+}
+
+/* 縦並び用のコンテナ */
+.manga-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 40px; /* コマとコマの間の隙間を空ける */
+    padding: 20px 0;
+}
+
+/* 1コマの枠を少し整える */
+.manga-panel {
+    width: 100%;
+    max-width: 500px; /* スマホで見やすい幅 */
+}
+
+.footer {
+    text-align: center;
+    padding: 100px 0; /* 読み終わった後の余韻 */
+    color: #888;
+}
+
+.manga-panel img {
+    width: 100%;
+    height: auto;
+}
+
+.manga-panel p {
+    text-align: center;
+    font-weight: bold;
+    margin-top: 15px;
+}
+
