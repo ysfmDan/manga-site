@@ -53,5 +53,6 @@ body {
     text-align: center;
     font-weight: bold;
     margin-top: 15px;
+    white-space: pre-wrap; /* これを追加：HTML内の改行が有効になります */
 }
 
