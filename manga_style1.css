@@ -22,6 +22,16 @@ body {
     border-radius: 25px;
     font-weight: bold;
 }
+.next-btn2 {
+    display: inline-block;
+    background-color: #5E4AE3;
+    color: #FFFFFF;
+    padding: 15px 30px;
+    text-decoration: none;
+    border-radius: 25px;
+    font-weight: bold;
+}
+
 
 /* 縦並び用のコンテナ */
 .manga-container {
