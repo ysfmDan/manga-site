@@ -7,6 +7,18 @@
     
     <!-- これで style.css を読み込みます -->
     <link rel="stylesheet" href="manga_style1.css">
+<style>
+  table, th, td {
+    border: 1px solid #ccc; /* 枠線の太さ、種類、色を指定 */
+  }
+  table {
+    border-collapse: collapse; /* 罫線を1本線にまとめる */
+    width: 100%;
+  }
+  th, td {
+    padding: 8px; /* セル内の余白 */
+  }
+</style>
 </head>
 
 <body>
@@ -50,8 +62,8 @@
     <a href="index.html"  class="next-btn" >漫画のページ1へ戻る </a>
 			<a href="4000/zenbu.html" class="next-btn">閲覧上の注意</a>
     </div>
-
-<table border = "1" summary = "高知大学のページに戻ります" >
+            <p id="returnTokochi-U">高知大学のページに戻る。</p>
+                <table aria-describedby = "returnTokochi-U">
   <tbody>
     <tr >
       <td><a href="http://www.kochi-u.ac.jp/"> 高知大学</a></td>
