@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AI Chat UI</title>
+    <style>
+        body {
+            font-family: sans-serif;
+            background-color: #f4f4f9;
+            margin: 0;
+            padding: 20px;
+            display: flex;
+            justify-content: center;
+        }
+        /* チャット全体のコンテナ */
+        .chat-container {
+            width: 100%;
+            max-width: 600px;
+            background: white;
+            border-radius: 12px;
+            box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+            padding: 20px;
+            display: flex;
+            flex-direction: column;
+            gap: 16px;
+        }
+        /* メッセージの共通スタイル */
+        .message {
+            max-width: 80%;
+            padding: 12px 16px;
+            border-radius: 18px;
+            font-size: 15px;
+            line-height: 1.4;
+        }
+        /* ユーザーの吹き出し（右側・緑） */
+        .user {
+            background-color: #25d366;
+            color: white;
+            align-self: flex-end;
+            border-bottom-right-radius: 4px;
+        }
+        /* AIの吹き出し（左側・薄いグレー） */
+        .ai {
+            background-color: #f0f2f5;
+            color: #333;
+            align-self: flex-start;
+            border-bottom-left-radius: 4px;
+        }
+    </style>
+</head>
+<body>
+
+<div class="chat-container">
+<pre>
+gemini さんの場合:
+</pre>
+    <!-- ユーザーの発言 -->
+    <div class="message user">
+			あなたは
+https://www.cataloghouse.co.jp/yomimono/kiokusketch/vol13.html#hyottoko　の内容
+についてなにか述べることができますか
+		</div>
+
+		<!-- AIの返信 -->
+		<div class="ai">
+			指定されたページ（[https://www.cataloghouse.co.jp/yomimono/kiokusketch/vol14.html#kozou](https://www.cataloghouse.co.jp/yomimono/kiokusketch/vol14.html#kozou) ）は、カタログハウス「通販生活」のWEBサイトに掲載されている人気連載のアーカイヴ『ナンシー関の記憶スケッチアカデミー』第14回「小便小僧」のページです。
+
+このページの内容について、以下のポイントや見どころを挙げることができます。
+
+---
+
+### 1. 企画の趣旨と面白さ
+
+* **「記憶スケッチ」とは**：参加者が資料などを一切見ず、自分の記憶だけを頼りにお題を描いて投稿する読者参加型の名物企画です（『通販生活』で1995〜2002年に連載）。
+* **ナンシー関さんの寸評**：消しゴム版画家・コラムニストの故・ナンシー関さんが「理事長」として各投稿作品に寄せた、鋭くも温かい（そして毒のある）コメントが最大の魅力です。
+
+### 2. 第14回のお題「小便小僧」と投句作品の傾向
+
+第14回のお題は「**小便小僧**」で、16点の読者投稿作品とそれに対するナンシー関さんの選評が掲載されています。
+
+* **「描きたくない部位」との闘い**
+ナンシー関さんの総評にもある通り、「おちんちん」という普段描き慣れないパーツをどう描くか（あるいはどう隠すか）で投稿者の苦心が見られます。つまむ・隠す・あるいは真横や後ろ姿にして「一切描かない」作戦をとった結果、わけのわからない絵になってしまった作品が多発しています。
+* **印象的な投稿作品と選評の例**
+* **服装の謎（服を着た小僧）**：ネオヒッピー風の服を着せたり、上半身裸なのに足元にズボンが引っかかっていて「排尿感」が一気に増してしまった作品など。
+* **「小僧」感の消失**：86歳の方が描いた「小僧」という情報を完全に無視した絵や、中年サラリーマンのような髪型で「小僧」感がゼロになってしまった絵など。
+* **ナンシー関さんの鋭いツッコミ**：
+* 三輪さん（31歳）の作品に対して*「嫁入り前の娘（私のことです。36歳ではあるがな）にこんな絵を送りつけるとは。まさにセクハラ。出るところに出ましょうか」*と返しつつ、画風に「根本敬系の味あり」と評する絶妙なコメント。
+* 下村さん（92歳）の混沌とした絵に対して*「人生90年もやっていれば、どれがちんちんでどれが右手か左手かなんて全然どうでもいいことです」*と深く納得する秀逸な選評。
+
+
+
+
+
+---
+
+人間の記憶のあやふやさや個性的な表現力が爆発しており、ナンシー関さんの観察眼とユーモア溢れる文章を存分に楽しめる回となっています。
+		</div>
+<pre>
+問うてみた:
+</pre>
+
+    <!-- ユーザーの発言2 -->
+    <div class="message user">
+もしあなたが素人になったつもりで、このコーナーに１つだけ画像(はがき)を送るとした
+ら、どのような画像を描きますか？描いてみてください。
+
+
+    </div>
+
+    <!-- AIの返信2 -->
+		
+		<img src="grok_hyottoko.webp" alt="a2">
+		<div class="ai">
+			素人になったつもりで、記憶だけを頼りに「ひょっとこ」を描いてみました。
+（はがきに送るような、ちょっと歪んでて愛嬌のある感じで）
+		</div>
+<pre>
+ </pre>
+</body>
+</html>
+
